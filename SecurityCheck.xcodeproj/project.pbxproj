@@ -10,7 +10,6 @@
 		48965CF416F2044E00B14F8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48965CF316F2044E00B14F8A /* Foundation.framework */; };
 		48965D0B16F2052000B14F8A /* debugCheckTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48965D0316F2052000B14F8A /* debugCheckTemplate.m */; };
 		48965D0C16F2052000B14F8A /* jailbreakCheckTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48965D0716F2052000B14F8A /* jailbreakCheckTemplate.m */; };
-		48965D0D16F2052000B14F8A /* readSys.s in Sources */ = {isa = PBXBuildFile; fileRef = 48965D0916F2052000B14F8A /* readSys.s */; };
 		48965D1116F2068C00B14F8A /* SecurityCheck.h in Headers */ = {isa = PBXBuildFile; fileRef = 48965D0A16F2052000B14F8A /* SecurityCheck.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		48965D1216F2068C00B14F8A /* fileCheck.h in Headers */ = {isa = PBXBuildFile; fileRef = 48965D0416F2052000B14F8A /* fileCheck.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		48965D1316F2068C00B14F8A /* forkCheck.h in Headers */ = {isa = PBXBuildFile; fileRef = 48965D0516F2052000B14F8A /* forkCheck.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -40,8 +39,6 @@
 		48965D0516F2052000B14F8A /* forkCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = forkCheck.h; sourceTree = "<group>"; };
 		48965D0616F2052000B14F8A /* jailbreakCheckTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jailbreakCheckTemplate.h; sourceTree = "<group>"; };
 		48965D0716F2052000B14F8A /* jailbreakCheckTemplate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = jailbreakCheckTemplate.m; sourceTree = "<group>"; };
-		48965D0816F2052000B14F8A /* libASM.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; path = libASM.h; sourceTree = "<group>"; };
-		48965D0916F2052000B14F8A /* readSys.s */ = {isa = PBXFileReference; explicitFileType = sourcecode.asm; fileEncoding = 4; path = readSys.s; sourceTree = "<group>"; };
 		48965D0A16F2052000B14F8A /* SecurityCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecurityCheck.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,8 +101,6 @@
 		48965D0E16F2052900B14F8A /* DebugCheck */ = {
 			isa = PBXGroup;
 			children = (
-				48965D0816F2052000B14F8A /* libASM.h */,
-				48965D0916F2052000B14F8A /* readSys.s */,
 				48965D0116F2052000B14F8A /* debugCheck.h */,
 				48965D0216F2052000B14F8A /* debugCheckTemplate.h */,
 				48965D0316F2052000B14F8A /* debugCheckTemplate.m */,
@@ -174,6 +169,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 48965CE716F2044E00B14F8A;
@@ -210,7 +206,6 @@
 			files = (
 				48965D0B16F2052000B14F8A /* debugCheckTemplate.m in Sources */,
 				48965D0C16F2052000B14F8A /* jailbreakCheckTemplate.m in Sources */,
-				48965D0D16F2052000B14F8A /* readSys.s in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
